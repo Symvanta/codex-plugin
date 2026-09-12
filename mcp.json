@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "symvanta": {
+      "type": "streamable-http",
+      "url": "https://mcp.symvanta.com/mcp"
+    }
+  }
+}

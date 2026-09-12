@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "symvanta": {
+      "type": "streamable-http",
+      "url": "https://mcp.symvanta.com/mcp"
+    }
+  }
+}
