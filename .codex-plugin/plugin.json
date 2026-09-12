@@ -1,6 +1,6 @@
 {
   "name": "symvanta",
-  "version": "1.0.0",
+  "version": "1.0.0+codex.20260912185110",
   "description": "Codebase intelligence for Codex: graph-guided search, architecture answers, and change-impact analysis.",
   "author": {
     "name": "Symvanta",
@@ -10,7 +10,12 @@
   "homepage": "https://symvanta.com",
   "repository": "https://github.com/Symvanta/codex-plugin",
   "license": "MIT",
-  "keywords": ["symvanta", "mcp", "code-graph", "codebase-intelligence"],
+  "keywords": [
+    "symvanta",
+    "mcp",
+    "code-graph",
+    "codebase-intelligence"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Symvanta",
@@ -19,6 +24,9 @@
     "developerName": "Symvanta",
     "category": "Productivity",
     "capabilities": [],
+    "websiteURL": "https://symvanta.com",
+    "privacyPolicyURL": "https://symvanta.com/privacy-policy",
+    "termsOfServiceURL": "https://symvanta.com/terms-of-service",
     "defaultPrompt": [
       "Explain how this feature works using Symvanta.",
       "Find the impact of changing this symbol.",

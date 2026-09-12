@@ -32,6 +32,9 @@ def main() -> int:
     require(portable["name"] == "symvanta", "portable manifest name must be symvanta")
     require(portable["version"] == compatibility["version"], "manifest versions must match")
     require(portable["repository"] == "https://github.com/Symvanta/codex-plugin", "repository URL is incorrect")
+    interface = portable["extensions"]["com.openai"]["interface"]
+    require(interface["privacyPolicyURL"] == "https://symvanta.com/privacy-policy", "privacy URL is incorrect")
+    require(interface["termsOfServiceURL"] == "https://symvanta.com/terms-of-service", "terms URL is incorrect")
     require((ROOT / "LICENSE").is_file(), "LICENSE is missing")
     require((ROOT / "README.md").is_file(), "README is missing")
     require(all(phrase in skill for phrase in REQUIRED_SKILL_PHRASES), "skill is missing a core workflow")
