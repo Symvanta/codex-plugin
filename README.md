@@ -35,11 +35,10 @@ MCP endpoint, use Codex's normal MCP configuration. See
 
 ## Development
 
-Run both validation layers before a release:
+Run the repository validation before a release:
 
 ```powershell
 python scripts/validate_plugin.py
-python C:\Users\Ugur\.codex\skills\.system\plugin-creator\scripts\validate_plugin.py .
 ```
 
 GitHub Actions runs the dependency-free release checks on pull requests and
